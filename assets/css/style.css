@@ -1,0 +1,17 @@
+
+body {
+    background-image: url(/portfolio-hw2//assets/images/background2.jpg);
+
+}
+
+.container {
+    padding-bottom: 40px;
+}
+
+.col-md-10 {
+    background-color: #c9d3df;
+}
+
+footer {
+    color: white;
+}
