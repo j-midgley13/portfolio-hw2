@@ -1,7 +1,9 @@
 
 body {
-    background-image: url(/portfolio-hw2//assets/images/background2.jpg);
-
+    background-image: url(/assets/images/background2.jpg);
+    position: relative;
+    padding-bottom: 56px;
+    min-height: 100vh;
 }
 
 .container {
@@ -14,4 +16,8 @@ body {
 
 footer {
     color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
 }
