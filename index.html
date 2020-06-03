@@ -14,22 +14,25 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
   </head>
   
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">Jameson Midgley</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-        <a class="nav-item nav-link" href="contact.html">Contact</a>
-        <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
-      </div>
-    </div>
-  </nav>
-
   <body>
+
+    <!-- moved navbar into body -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Jameson Midgley</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <!-- took out active link -->
+          <a class="nav-item nav-link" href="index.html">About</a>
+          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
+          <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+        </div>
+      </div>
+    </nav>
+
     <br>
       <div class="container">
           
@@ -38,7 +41,7 @@
             <div class="col-md-10">
               <h1>About Me</h1>
               <hr>
-              <img src="assets/images/profile-pic.jpg" alt="Jameson Profile Pic" style="float: left; margin-right: 3%; margin-bottom: 1%;">
+              <img class="profile-pic" src="assets/images/profile-pic.jpg" alt="Jameson Profile Pic">
               <p>Hello! My name is Jameson Midgley. This website is designed to tell you a little about myself and show off a bit of my work! I am a web developer looking to get out in the exciting technology industry.</p>
               <p>I was born and raised in Salt Lake City, Utah. I grew up with a passion for sports in all shapes and sizes. Anything I could get my hands on, I would play. Basketball, football, baseball, and snowboarding were my early favorites. I am a huge Jazz, RSL, and Packers fan!</p>
               <p>As I have grown, my interests have expanded to include more than sports. I have a passion for the outdoors and camping. I love going to my family's cabin in the summertime and spending time in the mountains. I also love taking my Triumph motorcycle through the Wasatch mountain canyons. I enjoy movies and enjoy analyzing the technical aspects that go into film making. </p>
@@ -59,8 +62,6 @@
     
       </footer>
 
-
-      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
